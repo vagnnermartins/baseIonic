@@ -1,0 +1,59 @@
+<ion-side-menus enable-menu-with-back-views="true">
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar bar-header bar-assertive" align-title="left">
+            <ion-nav-back-button class="no-text">
+            </ion-nav-back-button>
+
+            <ion-nav-buttons side="left">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+                </button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+
+        <ion-nav-view name="fabContent"></ion-nav-view>
+        <ion-nav-view name="menuContent"></ion-nav-view>
+    </ion-side-menu-content>
+    
+    <ion-side-menu side="left">
+        <ion-header-bar class="bar-stable">
+            <h1 class="title">Left</h1>
+        </ion-header-bar>    
+    </ion-side-menu>
+
+
+    <ion-side-menu side="left" class="dark-bg">
+        <ion-header-bar class="dark-bg header-menu">
+            <div class="row">
+                <div class="col col-30"><img class="img-circle" src="img/avatar_menu.jpg"></div>
+                <div class="col">
+                    <div class="text"><span style="color:#fff; font-weight:700">Olá Maria</span><br /> Seja bem-vinda</div>
+                </div>
+            </div>
+        </ion-header-bar>
+
+        <ion-content class="dark-bg" style="margin-top:75px;">
+            <ion-list class="dark">
+                <ion-item nav-clear menu-close ui-sref="app.home">
+                    <i class="ion-person icon-menu"></i> {{ 'menu.feed' | translate }}
+                </ion-item>
+                <ion-item nav-clear menu-close ui-sref="#">
+                    <i class="ion-home icon-menu"></i> {{ 'menu.bio' | translate }}
+                </ion-item>
+                <ion-item nav-clear menu-close ui-sref="#">
+                    <i class="ion-calendar icon-menu" style="font-size:1.3em"></i> {{ 'menu.schedule' | translate }}
+                </ion-item>
+                <ion-item nav-clear menu-close ui-sref="#">
+                    <i class="ion-document icon-menu" style="font-size:1.8em"></i> {{ 'menu.videos' | translate }}
+                </ion-item>
+                <ion-item nav-clear menu-close ui-sref="app.contact">
+                    <i class="ion-document-text icon-menu" style="font-size:1.8em"></i> {{ 'menu.contact' | translate }}
+                </ion-item>
+                <ion-item nav-clear menu-close ui-sref="#">
+                    <i class="ion-clipboard icon-menu" style="font-size:1.8em"></i> {{ 'menu.press' | translate }}
+                </ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+
+</ion-side-menus>
+

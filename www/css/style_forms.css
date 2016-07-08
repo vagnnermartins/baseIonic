@@ -1,0 +1,40 @@
+.has-success { color: #1ca361; }
+.has-error { color: #ff0000; }
+
+.item-floating-label .placeholder-icon {
+    padding-right: 18px;
+    position: absolute;
+    bottom: 9px;
+    right: 0px;
+}
+
+.clear-line {border-top:none; border-right:none; border-left:none; }
+
+.button {border-radius: 0px;}
+
+
+/* FAB button
+==================================*/
+.float-button {
+	background-color:#444;
+	color: white;
+	border-radius: 50%;
+	width: 30px;
+	padding: 25px;
+	font-size: 40px;
+	position: fixed;
+	bottom: 15px; /* Adjust height */
+	right: 15px; /* Adjust position */
+	z-index: 1000;
+} 
+.float-button .content {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  margin-top: -10px;
+  color: white;
+  font-size: 22px;
+}

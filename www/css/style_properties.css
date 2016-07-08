@@ -1,0 +1,5 @@
+/* Home - List
+==================================*/
+.property-list-bg { position:relative; height:150px; background: no-repeat center center; margin-bottom: 7px;  }
+.property-list-content { position:absolute; bottom:10px; left: 15px; color: #fff; font-size: 0.9em; }
+.property-image-overlay { position: absolute; top: 0px; left: -0px; right:0; bottom:0px; background-color: rgba(0,0,0, 0.50) }

@@ -1,0 +1,19 @@
+<ion-view title='{{ "menu.feed" | translate }}'>
+    
+    <ion-content>
+	    <div ng-repeat="item in properties" style="background-image: url({{ item.image }});" class="property-list-bg">
+			<div class="property-image-overlay"></div>
+			<div class="property-list-content">
+				<b>{{item.type}}</b> - {{item.business}}<br />
+				cadastro {{item.register}}
+			</div>
+		</div>
+	</ion-content> 
+
+	<div class="float-button">
+	    <a class="content" ui-sref="app.propertyForm">
+	      <i class="ion-plus"></i>
+	    </a>
+	</div>
+</ion-view>
+

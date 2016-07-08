@@ -1,0 +1,52 @@
+/* Fonts
+==================================*/
+* {font-family: 'Open Sans'}
+
+
+/* Colors
+==================================*/
+.orange { background-color:#e23c03 }
+.blue { color:#2988b5 }
+.red { color:#ae3b25 }
+.green { background-color:#79b229 }
+
+
+/* Menu
+==================================*/
+.img-circle { border-radius: 50%; border: 1px solid #fff; padding:5px; height: 90px; }
+.header-menu { background-image: none; }
+.header-menu .text {margin:27px 0 0 -20px;}
+
+.dark .scroll-content { background-color: #444 !important; }
+.dark .item {
+  background-color: #444!important;
+  border: none;
+  border-top: 1px solid #464646;
+  border-bottom: 2px solid #333333;
+}
+.dark .item-content {
+  background-color: #444!important;
+  color: #ffffff;
+  font-size: 0.85em;
+  padding-top: 12px;
+  padding-bottom: 12px; 
+}
+.dark .item:first-child { border-top: 1px solid #333333; }
+.dark .item:last-child { border-bottom: 1px solid #333333; }
+
+.icon-menu { font-size:1.6em; padding:0 0 0 10px; width: 50px; float: left;}
+
+
+/* Header
+==================================*/
+.title-image { padding-top: 8px; height: 38px; width: 148px; }
+.bar.bar-header .button+.title { text-align: center !important; left: 45px !important; }
+
+
+/* Rádio Buttons
+==================================*/
+
+.item-radio input:checked + .radio-content .item-content {
+    background: transparent !important;
+}
+
